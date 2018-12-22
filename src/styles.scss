@@ -1,3 +1,14 @@
 * {
   font-family: 'Roboto Slab', serif;
 }
+
+.a {
+  padding-top: 12px;
+  color: #000000 !important;
+  text-decoration: underline #ff9f35;
+}
+
+a:focus, a:hover {
+  color: #ff9f35 !important;
+  text-decoration: underline #ffffff;
+}
