@@ -1,5 +1,13 @@
 * {
   font-family: 'Roboto Slab', serif;
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard */
 }
 
 .link {
@@ -8,7 +16,8 @@
   text-decoration: underline #ff9f35;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
   color: #ff9f35 !important;
   text-decoration: underline #ffffff;
 }
