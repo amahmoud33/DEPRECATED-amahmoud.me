@@ -1,13 +1,15 @@
 * {
   font-family: 'Roboto Slab', serif;
+  /* Ensuring text cannot be selected/highlighted on site */
   -webkit-user-select: none;
-  /* Safari */
   -moz-user-select: none;
-  /* Firefox */
   -ms-user-select: none;
-  /* IE10+/Edge */
   user-select: none;
-  /* Standard */
+}
+
+.text-box {
+  max-width: 790px;
+  margin: 0 auto;
 }
 
 .link {
