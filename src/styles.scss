@@ -7,12 +7,25 @@
   user-select: none;
 }
 
+.page-header {
+  font-size: 5em;
+  text-align: center;
+}
+
 .text-box {
   max-width: 790px;
   margin: 0 auto;
 }
 
-.link {
+.divider {
+  font-size: 50px;
+  color: #ff9f35;
+  padding-bottom: 30px;
+  line-height: 0.8;
+  text-align: center;
+}
+
+a {
   padding-top: 12px;
   color: #000000 !important;
   text-decoration: underline #ff9f35;

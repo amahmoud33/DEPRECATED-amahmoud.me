@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 import { UnderConstructionComponent } from './under-construction/under-construction.component';
 
 const routes: Routes = [
@@ -10,7 +11,7 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'projects', component: UnderConstructionComponent },
   { path: 'coop', component: UnderConstructionComponent },
-  { path: 'contact', component: UnderConstructionComponent },
+  { path: 'contact', component: ContactComponent },
   { path: '**', redirectTo: '/home' },
 ];
 

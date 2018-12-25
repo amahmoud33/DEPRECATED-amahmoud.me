@@ -7,14 +7,15 @@ import { CoreModule } from './core/core.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 import { UnderConstructionComponent } from './under-construction/under-construction.component';
-
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
+    ContactComponent,
     UnderConstructionComponent
   ],
   imports: [
