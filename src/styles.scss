@@ -1,10 +1,10 @@
 * {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', serif !important;
   /* Ensuring text cannot be selected/highlighted on site */
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
 }
 
 .page-header {
@@ -13,6 +13,8 @@
 }
 
 .text-box {
+  text-align: justify;
+  padding: 0px 30px;
   max-width: 790px;
   margin: 0 auto;
 }
@@ -29,10 +31,10 @@ a {
   padding-top: 12px;
   color: #000000 !important;
   text-decoration: underline #ff9f35;
-}
 
-a:focus,
-a:hover {
-  color: #ff9f35 !important;
-  text-decoration: underline #ffffff;
+  &:focus,
+  &:hover {
+    color: #ff9f35 !important;
+    text-decoration: underline #ffffff;
+  }
 }

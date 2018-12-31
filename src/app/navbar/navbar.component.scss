@@ -30,3 +30,8 @@
   color: #ff9f35 !important;
   text-decoration: underline #ffffff;
 }
+
+.dropdown-item:focus {
+  color: #ffffff !important;
+  background-color: #ff9f35 !important;
+}
