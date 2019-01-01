@@ -1,14 +1,19 @@
 * {
-  font-family: 'Roboto Slab', serif !important;
+  font-family: 'Roboto Slab', serif;
   /* Ensuring text cannot be selected/highlighted on site */
-  -webkit-user-select: none !important;
-  -moz-user-select: none !important;
-  -ms-user-select: none !important;
-  user-select: none !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .page-header {
   font-size: 5em;
+  text-align: center;
+}
+
+.page-header2 {
+  font-size: 2.5em;
   text-align: center;
 }
 
@@ -17,6 +22,12 @@
   padding: 0px 30px;
   max-width: 790px;
   margin: 0 auto;
+}
+
+.imp-text {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  font-weight: 400;
 }
 
 .divider {

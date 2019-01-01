@@ -10,10 +10,7 @@ import { fadeIn } from '../../animations';
     animations: [ fadeIn ]
 })
 export class CoopSF18Component {
-    previousOption = "Previous";
-    nextOption = "Next";
-
     constructor(private titleService: Title) {
-        titleService.setTitle("amahmoud.me | SF18 Coop");
+        titleService.setTitle("amahmoud.me | SF18 Coop | Table of Contents");
     }
  }

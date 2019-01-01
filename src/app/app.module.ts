@@ -6,8 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { CoopComponent } from './coop/coop.component';
-import { CoopSF18Component } from './coop/sf18/coop-sf18.component';
+import { CoopModule } from './coop/sf18/coop.module';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { UnderConstructionComponent } from './under-construction/under-construction.component';
@@ -18,15 +17,14 @@ import { UnderConstructionComponent } from './under-construction/under-construct
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    CoopComponent,
-    CoopSF18Component,
     ContactComponent,
     UnderConstructionComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    CoopModule,
   ],
   providers: [ Title ],
   bootstrap: [ AppComponent ]
