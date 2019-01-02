@@ -30,12 +30,36 @@
   font-weight: 400;
 }
 
+.img-responsive {
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.img-rounded {
+  border-radius: 6px;
+}
+
+.img-caption {
+  color: #888888;
+  font-size: 0.8em;
+  padding: 5px;
+  text-align: center;
+}
+
 .divider {
   font-size: 50px;
   color: #ff9f35;
   padding-bottom: 30px;
   line-height: 0.8;
   text-align: center;
+}
+
+.divider-line {
+  border-bottom-color: #888888;
+  border-bottom-width: 2px;
 }
 
 a {
