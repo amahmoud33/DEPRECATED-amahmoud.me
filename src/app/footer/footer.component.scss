@@ -1,0 +1,39 @@
+.footer {
+  display: block;
+  padding-top: 2em;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 0.85em;
+  color: rgb(110, 110, 110);
+  background-color: #ffffff;
+}
+
+.footer-item {
+  display: inline-block;
+}
+
+.footer-logo {
+  color: rgb(110, 110, 110) !important;
+  font-size: 1.2em;
+  text-decoration: underline #ffffff;
+
+  &:hover,
+  &:focus {
+    color: #ff9f35 !important;
+  }
+}
+
+.footer-divider {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (max-width: 420px) {
+  .footer-item {
+    display: block;
+  }
+
+  .footer-divider {
+    display: none;
+  }
+}

@@ -30,7 +30,19 @@
   font-weight: 400;
 }
 
+.img-border {
+  border:1px solid #cccccc !important;
+}
+
 .img-responsive {
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+}
+
+.img-responsive2 {
   display: block;
   height: auto;
   margin-left: auto;
@@ -47,6 +59,12 @@
   font-size: 0.8em;
   padding: 5px;
   text-align: center;
+}
+
+.img-caption2 {
+  color: #888888;
+  font-size: 0.7em;
+  padding: 5px;
 }
 
 .divider {
@@ -72,4 +90,8 @@ a {
     color: #ff9f35 !important;
     text-decoration: underline #ffffff;
   }
+}
+
+p {
+  font-size: 0.90em;
 }
