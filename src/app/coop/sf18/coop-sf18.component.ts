@@ -11,6 +11,6 @@ import { fadeIn } from '../../animations';
 })
 export class CoopSF18Component {
     constructor(private titleService: Title) {
-        titleService.setTitle("amahmoud.me | SF18 Coop | Table of Contents");
+        titleService.setTitle("SF18 Co-op | Table of Contents");
     }
  }

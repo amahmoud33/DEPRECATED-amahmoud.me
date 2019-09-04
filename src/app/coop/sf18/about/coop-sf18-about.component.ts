@@ -11,6 +11,6 @@ import { fadeIn } from '../../../animations';
 })
 export class CoopSF18AboutComponent {
     constructor(private titleService: Title) {
-        titleService.setTitle("amahmoud.me | SF18 Coop | About Unitron");
+        titleService.setTitle("SF18 Co-op | About Unitron");
     }
  }

@@ -11,6 +11,6 @@ import { fadeIn } from '../../../animations';
 })
 export class CoopS19ConcComponent {
     constructor(private titleService: Title) {
-        titleService.setTitle("S19 Co-op | Conclusion");
+        titleService.setTitle("S19 Co-op | Conclusions");
     }
  }
