@@ -39,14 +39,14 @@ const routes: Routes = [
   { path: 'coop/sf18/acknowledgements', component: CoopSF18AcknComponent },
   { path: 'coop/sf18', component: CoopSF18Component },
 
-    /* Summer 2019 Coop Report | Unitron */
-    { path: 'coop/s19/introduction', component: CoopS19IntroComponent },
-    { path: 'coop/s19/about', component: CoopS19AboutComponent },
-    { path: 'coop/s19/goals', component: CoopS19GoalsComponent },
-    { path: 'coop/s19/jobdescription', component: CoopS19DescComponent },
-    { path: 'coop/s19/conclusions', component: CoopS19ConcComponent },
-    { path: 'coop/s19/acknowledgements', component: CoopS19AcknComponent },
-    { path: 'coop/s19', component: CoopS19Component },
+  /* Summer 2019 Coop Report | Unitron */
+  { path: 'coop/s19/introduction', component: CoopS19IntroComponent },
+  { path: 'coop/s19/about', component: CoopS19AboutComponent },
+  { path: 'coop/s19/goals', component: CoopS19GoalsComponent },
+  { path: 'coop/s19/jobdescription', component: CoopS19DescComponent },
+  { path: 'coop/s19/conclusions', component: CoopS19ConcComponent },
+  { path: 'coop/s19/acknowledgements', component: CoopS19AcknComponent },
+  { path: 'coop/s19', component: CoopS19Component },
 
   { path: 'contact', component: ContactComponent },
   { path: '**', redirectTo: '/home' },
