@@ -15,6 +15,14 @@ import { CoopS19DescComponent } from './s19/jobdescription/coop-s19-desc.compone
 import { CoopS19ConcComponent } from './s19/conclusions/coop-s19-conc.component';
 import { CoopS19AcknComponent } from './s19/acknowledgements/coop-s19-ackn.component';
 
+import { CoopWS20Component } from './ws20/coop-ws20.component';
+import { CoopWS20IntroComponent } from './ws20/introduction/coop-ws20-intro.component';
+import { CoopWS20AboutComponent } from './ws20/about/coop-ws20-about.component';
+import { CoopWS20GoalsComponent } from './ws20/goals/coop-ws20-goals.component';
+import { CoopWS20DescComponent } from './ws20/jobdescription/coop-ws20-desc.component';
+import { CoopWS20ConcComponent } from './ws20/conclusions/coop-ws20-conc.component';
+import { CoopWS20AcknComponent } from './ws20/acknowledgements/coop-ws20-ackn.component';
+
 
 
 @NgModule({
@@ -33,7 +41,15 @@ import { CoopS19AcknComponent } from './s19/acknowledgements/coop-s19-ackn.compo
     CoopS19GoalsComponent,
     CoopS19DescComponent,
     CoopS19ConcComponent,
-    CoopS19AcknComponent
+    CoopS19AcknComponent,
+
+    CoopWS20Component,
+    CoopWS20IntroComponent,
+    CoopWS20AboutComponent,
+    CoopWS20GoalsComponent,
+    CoopWS20DescComponent,
+    CoopWS20ConcComponent,
+    CoopWS20AcknComponent
   ],
   exports: [
     CoopSF18Component,
@@ -50,7 +66,15 @@ import { CoopS19AcknComponent } from './s19/acknowledgements/coop-s19-ackn.compo
     CoopS19GoalsComponent,
     CoopS19DescComponent,
     CoopS19ConcComponent,
-    CoopS19AcknComponent
+    CoopS19AcknComponent,
+
+    CoopWS20Component,
+    CoopWS20IntroComponent,
+    CoopWS20AboutComponent,
+    CoopWS20GoalsComponent,
+    CoopWS20DescComponent,
+    CoopWS20ConcComponent,
+    CoopWS20AcknComponent
   ]
 })
 export class CoopModule { }
